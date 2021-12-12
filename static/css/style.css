@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+.codeflask {
+  background: #282828 !important;
+  color: #e0819b !important;
+}
+
+.codeflask .token.selector {
+  color: #7fc274 !important;
+}
+
+.codeflask .token.property {
+  color: #ff7700 !important;
+}
+
+.codeflask .codeflask__textarea {
+  color: none !important;
+  caret-color: #eedaad !important;
+}
+
+.codeflask .codeflask__lines {
+  background-color: #383838 !important;
+  padding-right: 15px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  height: 95%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.container button {
+  margin: 0 1em;
+  z-index: 100;
+  background: none;
+  border: 2px solid #e0819b;
+  line-height: 1;
+  padding: 1em 2em;
+  font: 300 1em 'Fira Sans', sans-serif;
+  background: none;
+  color: #e0819b;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.container button:hover {
+  background: #e0819b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container .g-recaptcha {
+  z-index: 100;
+}
+/*# sourceMappingURL=style.css.map */

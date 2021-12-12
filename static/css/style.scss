@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.codeflask {
+    background: #282828 !important;
+    color: #e0819b !important;
+
+    .token.selector{
+        color: #7fc274 !important;
+    }
+
+    .token.property {
+        color: #ff7700 !important;
+    }
+
+    .codeflask__textarea {
+        color: none !important;
+        caret-color:#eedaad !important;
+    }
+
+    .codeflask__lines {
+        background-color: #383838 !important;
+        padding-right: 15px;
+    }
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    height: 95%;
+    align-items: flex-end;
+
+    button {
+        margin: 0 1em;
+        z-index: 100;
+        background: none;
+        border: 2px solid #e0819b;
+        line-height: 1;
+        padding: 1em 2em;
+        font: 300 1em 'Fira Sans', sans-serif;
+        background: none;
+        color: #e0819b;
+        outline: none;
+        transition: .2s;
+    
+        &:hover{
+            background: #e0819b;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+
+    .g-recaptcha {
+        z-index: 100;
+    }
+}
+
+
+
